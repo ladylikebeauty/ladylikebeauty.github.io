@@ -38,7 +38,7 @@
 }
 
 div.scroll-container {
-  background-color: lightyellow;
+  background-color: yellow;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
