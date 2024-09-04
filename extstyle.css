@@ -10,7 +10,7 @@
   background-color:teal;
   padding: 20px;
   text-align: center;
-}
+  }
 
 /* Style the top navigation bar */
 .topnav {
@@ -27,6 +27,8 @@
   text-align:left;
   padding: 14px 16px;
   text-decoration: none;
+  font-family:
+
 }
 
 /* Change color on hover */
@@ -35,7 +37,16 @@
   color: black;
 }
 
+div.scroll-container {
+  background-color: lightyellow;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
 
+div.scroll-container img {
+  padding: 10px;
+}
 
 
 /* Create three columns that floats next to each other */
@@ -43,7 +54,8 @@
   float: left;
   width: 33.33%;
   padding: 15px;
-}
+  font-family: sans-serif;
+  }
 
 /* Clear floats after the columns */
 .row::after {
